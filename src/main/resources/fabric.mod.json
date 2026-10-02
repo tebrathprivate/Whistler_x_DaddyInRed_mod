@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "stalkermod",
+  "version": "1.0.0",
+  "name": "Stalker Mod",
+  "description": "The Whistler and Daddy in Red. They spot you from far away and chase you.",
+  "authors": ["Tebrath"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tebrath.stalkermod.StalkerMod"],
+    "client": ["com.tebrath.stalkermod.StalkerModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
