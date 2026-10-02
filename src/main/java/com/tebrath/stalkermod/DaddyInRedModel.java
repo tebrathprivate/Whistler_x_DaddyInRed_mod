@@ -53,7 +53,6 @@ public class DaddyInRedModel extends HierarchicalModel<StalkerEntity> {
 	@Override
 	public void setupAnim(StalkerEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
-		this.animateWalk(DaddyInRedAnimation.WALK, limbSwing, limbSwingAmount, 1.5F, 2.5F);
 	}
 
 	@Override
